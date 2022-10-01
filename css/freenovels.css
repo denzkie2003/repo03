@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+:root{
+  --comforta: 'Comfortaa', cursive;
+}
+body{
+  font-size: 12pt;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: var(--comforta);
+}
+div.main-container{padding: 0;margin:0}
+.navigation{
+  padding: 7px;
+  border-bottom-width: 2px;
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+span#menubar{
+  font-size: 15pt;
+}
+span#title{
+  font-size: 15pt;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: 800;
+}
+div.nav-content{
+  width: 200px;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  flex-direction: column;
+  z-index: 1;
+  border-right-color: #000;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+a#nav-link{
+  margin: 0;
+  padding: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+div.post-item{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 2px grey;
+  margin: 10px 20px 20px 20px;
+  overflow: hidden;
+}
+div.post-item img{
+  width: 100%;
+}
+div.post-item h5{
+  margin:0;
+  padding: 5px 10px;
+  font-size: 12pt;
+}
+div.post-item p a{
+  font-size: 10pt;
+  text-decoration: none;
+  color: darkblue;
+  padding: 0;
+  margin: 0 10px;
+}
+div.post-item p a:hover{
+  text-decoration: underline;
+}
+footer{
+  margin: 0;
+  padding: 5px 10px;
+  background-color: darkgreen;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+footer span{
+  font-size: 8pt;
+  color: #fff;
+  margin: 5px 0;
+}
+span#develop{
+  font-size: 5pt;
+}

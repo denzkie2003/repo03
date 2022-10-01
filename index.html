@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content="Download Light Novels in Epub for free"/>
+    <meta name="author" content="Clover"/>
+    <title>Freenovels - Free download novels</title>
+    <link href="css/freenovels.css" rel="stylesheet"/>
+    <link rel="icon" sizes="512x512" href="covers/Logo.jpg"/>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Navigation -->
+      <nav class="navigation">
+        <div class="nav">
+          <span id="menubar">☰</span>
+          <span id="title"><span style="color:red">F</span>ree<span style="color:red">N</span>ovels</span>
+        </div>
+        <div id="nav-content" class="nav-content">
+          <a href="javascript:void(0)" id="nav-link" class="closeMenu" style="text-align:right;padding-right:15px" onclick="document.getElementById('nav-content').style.display='none'">x</a>
+          <a href="javascript:void(0)" id="nav-link">Home</a>
+          <a href="list-of-novels.html" id="nav-link">Light Novels</a>
+          <a href="about-us.html" id="nav-link">About Us</a>
+          <a href="list-of-novels.html" id="nav-link">Facebook</a>
+          <a href="https://ko-fi.com/lndownloader" id="nav-link">Support Me</a>
+        </div>
+      </nav>
+      
+      <div class="post-recommendation">
+        <h4 style="color:orange;padding:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#000">Recommended</h4>
+        <!-- Post Items -->
+        <div class="post-item">
+          <img id="post-cover" src="covers/chitose.jpg" alt="Cover"/>
+          <h5 id="post-title">Chitose is in the Ramune Bottle</h5>
+          <p><a href="series/chitose-is-in-the-ramune-bottle-light-novel.html">View Full Description</a></p>
+        </div>
+        <div class="post-item">
+          <img id="post-cover" src="covers/Koibito-Daik-no-Baito-o-Hajimeta-ore-Nazedarou-Fukus-no-Bishjo-Kara-Shimei-Irai-ga-Haitte-Kuru-LN_1635474582.jpg" alt="Cover"/>
+          <h5 id="post-title">I started a part-time job at a lover agency service. I don't know why, but I received requests from many beautiful girls</h5>
+          <p><a href="series/Koibito-Daikō-no-Baito-o-Hajimeta-ore-Nazedaron-Fukusū-no-Bishōjo-Kara-Shimei-Irai-ga-Haitte-Kuru.html">View Full Description</a></p>
+        </div>
+        <div class="post-item">
+          <img id="post-cover" src="covers/LN_2nd_Year_Vol_03_cover.jpg" alt="Cover"/>
+          <h5 id="post-title">Classroom of the Elite</h5>
+          <p><a href="#">View Full Description</a></p>
+        </div>
+        <div class="post-item">
+          <img id="post-cover" src="covers/Grimoire of Zero.jpg" alt="Cover"/>
+          <h5 id="post-title">Grimoire of Zero</h5>
+          <p><a href="series/grimoire-of-zero-light-novel.html">View Full Description</a></p>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer>
+        <span>Copyrighted © Freenovels 2022</span>
+        <span id="develop">Developed by Clover</span>
+      </footer>
+    </div>
+    <script src="js/freenovels.js"></script>
+    <script>
+      document.getElementById('menubar').addEventListener('click', (e) => {
+          document.getElementById('nav-content').style.display='flex';
+      });
+    </script>
+  </body>
+</html>
